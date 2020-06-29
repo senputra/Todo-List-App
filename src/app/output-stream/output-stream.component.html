@@ -1,0 +1,14 @@
+<div class="task">
+  <button (click)="changeTask()">Done</button>
+  <span class="completed-task"
+  [ngClass]="{'completed-task': task.isChecked}">
+    <div class="task-name">
+      {{task.title}}
+    </div>
+  </span>
+  <button (click)="submitTask()"
+  class="remove-button">
+    -
+  </button>
+</div>
+

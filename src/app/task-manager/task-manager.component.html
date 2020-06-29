@@ -1,0 +1,12 @@
+<div class="main-view">
+  <app-input-stream (submit)="addTask($event)"></app-input-stream>
+  <ul>
+    <li *ngFor="let task of todoList">
+      <app-output-stream [task]="task"
+      (submitRemove)="removeTask($event)"
+      (submitUpdate)="updateTask($event.task,$event.changes)">
+      </app-output-stream>
+    </li>
+  </ul>
+</div>
+

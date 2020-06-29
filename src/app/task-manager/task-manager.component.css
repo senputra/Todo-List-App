@@ -1,0 +1,9 @@
+.main-view{
+  position: relative;
+  width: 400px;
+  padding: 30px 100px 15px;
+  background: #083358;
+  border: 2px dot-dot-dash;
+  border-radius: 2px;
+  margin: 20px auto;
+}

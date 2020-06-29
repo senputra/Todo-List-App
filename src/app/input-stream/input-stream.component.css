@@ -1,0 +1,8 @@
+.task-input{
+  padding: 2px 8px 2px;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 0px;
+  flex-grow: 1;
+}
+
